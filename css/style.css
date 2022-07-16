@@ -10,7 +10,15 @@ ul,
 ol,
 li{
     list-style: none;
+    margin: 0;
 }
+p{
+    line-height: 26.25px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 0;
+}
+
 body{
     font-family: Roboto;
     background-color: #CCCCCC;
@@ -18,6 +26,7 @@ body{
 }
 .header{
     height: 169px;
+    margin-bottom: 88px;
 }
 .wrapper{
     max-width: 1116px;
@@ -34,35 +43,118 @@ body{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 10%;
+    transition: 0.5s;
     
 }
-.main {
+.nav li:hover{
+    color: #34547A;
 }
-.wrapper {
-}
-.start__page {
-    min-height: 100ch;
+.start__page-content {
+
     max-width: 540px;
     line-height: 140%;
 }
-h1{
+.start__page-content h1{
     font-size: 48px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin: 0 0 60px;
+}
+h1{
+    
 }
 
-.start__page p{
-    font-weight: 400;
-    color: #727272;
+.start__page-content p{
     margin-bottom: 65px;
-    line-height: 130%;
 }
-.start__page button{
+.start__page-button{
     background-color: #34547A;
-    border: transparent;
     width: 225px;
     height: 65px;
-    color: #fff;
-    font-size: 16px;
     cursor: pointer;
+    margin-bottom: 141px;
+    border: solid 1px transparent;
+    transition: 0.7s;
+
+}
+.start__page-button:hover{
+    background-color: #426692;
+    box-shadow: -1px -2px 15px 1px rgba(100,105,110);
+    border: solid 1px #fff;
+}
+.start__page-content a{
+    display: block;
+    color: #fff;
+    font-size: 16px; 
+    text-align: center;
+    line-height: 60px; 
+}
+.section__about-me, 
+.section__about-my-work {
+    background-color: #fff;
+}
+.about__me,
+.about-my-work{
+    padding: 112px 0;
+}
+.about__me-content,
+.about__my-work-content{
+    width: 540px;
+    margin: 0 auto;
+}
+.about__me-content > *,
+.about-my-work > *{
+    text-align: center;
+}
+.section-project,
+.footer{
+    background-color: #34547A;
+}
+.project__list {
+    padding: 50px 0;
+
+}
+.project__list li{
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    margin: 0 22.5px;
+}
+.project__list li:last-child{
+    margin-right: 15px;
+}
+.project__list li:first-child{
+    margin-left: 15px;
+}
+
+.project__list img{
+    float: left;
+    margin-right: 18px;
+}
+.project__list span{
+    display: inline-block;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.project__list p{
+    margin: 0;
+    color: #fff;
+}
+
+.about__my-work-content{
+    margin-bottom: 57px;
+}
+.footer__content h5{
+    margin: 0;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+}
+.footer__content p{
+    margin: 0;
+    padding: 20px 0 50px 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
 }
