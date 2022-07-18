@@ -55,6 +55,7 @@ body{
     font-size: 48px;
     font-weight: 500;
     margin: 0 0 60px;
+    line-height: 78px;
 }
 .start__page-content p{
     margin-bottom: 65px;
@@ -93,6 +94,12 @@ body{
     width: 540px;
     margin: 0 auto;
 }
+.about__my-title,
+.about__me-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+}  
 .about__me-content > *,
 .about__my-work > *{
     text-align: center;
